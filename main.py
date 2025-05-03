@@ -32,7 +32,7 @@ class Main:
                     except ValueError:
                         print("ID inválido. Debe ser un número.")
                 else:
-                    print(" Primero debe cargar un archivo CSV.")
+                    print(" Primero debe cargar un archivo CSV:")
 
             elif opcion == '3':
                 if self.gestor:
@@ -45,7 +45,7 @@ class Main:
                     else:
                         print("No se encontraron clientes en esa ciudad.")
                 else:
-                    print(" Primero debe cargar un archivo CSV.")
+                    print(" Primero debe cargar un archivo CSV:")
 
             elif opcion == '4':
                 if self.gestor:
@@ -53,7 +53,7 @@ class Main:
                     for cliente in ordenados:
                         print(cliente)
                 else:
-                    print(" Primero debe cargar un archivo CSV.")
+                    print(" Primero debe cargar un archivo CSV:")
 
             elif opcion == '5':
                 print(" Programa finalizado.")
